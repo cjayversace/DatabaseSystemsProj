@@ -1,0 +1,16 @@
+-- Insert values into Course table
+INSERT INTO Course (department, course_number, course_name, semester, year, total_percentage)
+VALUES ('CSE', '101', 'Introduction to Computer Science', 'Spring', 2023, 100),
+       ('MATH', '201', 'Calculus I', 'Fall', 2022, 100),
+       ('PHYS', '101', 'Physics I', 'Summer', 2022, 100);
+
+-- Insert values into Assignment table
+INSERT INTO Assignment (course_department, course_number, category, percentage, assignment_name)
+VALUES ('CSE', '101', 'Participation', 10, 'Participation 1'),
+       ('CSE', '101', 'Homework', 20, 'Homework 1'),
+       ('CSE', '101', 'Tests', 50, 'Test 1'),
+       ('CSE', '101', 'Projects', 20, 'Project 1'),
+       ('MATH', '201', 'Homework', 30, 'Homework 1'),
+       ('MATH', '201', 'Tests', 70, 'Test 1'),
+       ('PHYS', '101', 'Participation', 15, 'Participation 1'),
+       ('
