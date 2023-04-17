@@ -1,0 +1,40 @@
+                 +-------------------+
+                 |       Course      |
+                 +-------------------+
+                 | department (PK)   |
+                 | course_number (PK) |
+                 | course_name        |
+                 | semester           |
+                 | year               |
+                 | total_percentage   |
+                 +-------------------+
+
+                 +---------------------+
+                 |     Assignment      |
+                 +---------------------+
+                 | assignment_id (PK)  |
+                 | course_department   |
+                 | course_number       |
+                 | category            |
+                 | percentage          |
+                 | assignment_name     |
+                 +---------------------+
+
+                 +-----------------------+
+                 |        Student        |
+                 +-----------------------+
+                 | student_id (PK)       |
+                 | first_name            |
+                 | last_name             |
+                 | department            |
+                 | course_number         |
+                 +-----------------------+
+
+                 +-----------------------+
+                 |      Grade_Record      |
+                 +-----------------------+
+                 | record_id (PK)        |
+                 | student_id (FK)       |
+                 | assignment_id (FK)    |
+                 | score                 |
+                 +-----------------------+
